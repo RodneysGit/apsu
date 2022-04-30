@@ -1,0 +1,31 @@
+
+/**
+ *  Contact: shesoyam@yahoo.com
+ *  Projection creation date:  possibly 2013-2015
+ *  Project revision date: 2022-04-29
+ *  Project name: apSU // short for "Application SUPER UNHIDE"
+ *  
+ *  // this project's name may change at any moment
+ * 
+ *  Objection:
+ *  Project was created as a result of constant infection from
+ *  Win32:Atraps-PZ[Trojan] which would hide folders and files.
+ *  During the time Avast Anti-virus was used to quarantine the said Trojan however 
+ *  Avast was not correcting the folder structure to make hidden files and folders visible
+ *  - hence the creation of this Project.
+ * 
+ *  A program called "HFV (Hidden Folder Virus) Cleaner Pro"
+ *  can achieve the same folder/file structure correction as well as able to neutralize
+ *  the above said Virus
+ * 
+ *  URL: https://sourceforge.net/projects/hfv/
+ * 
+ *  *********************************************************************************
+ * 
+ * 
+ *  Projects BTC: bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w
+ *  BTC will be used to sponsor future and current (ongoing) projects
+ *  
+ *  If you want to sponsor a specific project or would like the creation 
+ *  of a project you can use the email 'shesoyam@yahoo.com' to contact.  
+ */

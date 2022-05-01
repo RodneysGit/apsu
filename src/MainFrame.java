@@ -209,16 +209,19 @@ public class MainFrame extends javax.swing.JFrame implements DropTargetListener 
 
         dlgAbout = new javax.swing.JDialog();
         pnlAbout = new javax.swing.JPanel();
-        txtAreaDescrption = new javax.swing.JTextArea();
         lblDescription = new javax.swing.JLabel();
-        lblAuthor = new javax.swing.JLabel();
-        txtAreaAuthor = new javax.swing.JTextArea();
-        lblVersion = new javax.swing.JLabel();
-        lblBuildDate = new javax.swing.JLabel();
-        lblJava = new javax.swing.JLabel();
+        lblAuthorHeader = new javax.swing.JLabel();
+        lblVersionHeader = new javax.swing.JLabel();
+        lblBuildDateHeader = new javax.swing.JLabel();
+        lblJavaHeader = new javax.swing.JLabel();
         lblVersionText = new javax.swing.JLabel();
         lblBuildDateText = new javax.swing.JLabel();
         lblJavaText = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtAreaDescriptiion = new javax.swing.JTextArea();
+        lblProjectNameHeader = new javax.swing.JLabel();
+        lblProjectNameText = new javax.swing.JLabel();
+        lblAurthorText = new javax.swing.JLabel();
         dlgPreferences = new javax.swing.JDialog();
         pnlPreferences = new javax.swing.JPanel();
         rdioBtnAlways = new javax.swing.JRadioButton();
@@ -252,45 +255,43 @@ public class MainFrame extends javax.swing.JFrame implements DropTargetListener 
         dlgAbout.setBackground(new java.awt.Color(255, 255, 255));
         dlgAbout.setLocation(new java.awt.Point(0, 0));
         dlgAbout.setMinimumSize(new java.awt.Dimension(582, 291));
-        dlgAbout.setResizable(false);
-        dlgAbout.setSize(new java.awt.Dimension(582, 291));
+        dlgAbout.setSize(new java.awt.Dimension(582, 533));
 
         pnlAbout.setBackground(new java.awt.Color(255, 255, 255));
-
-        txtAreaDescrption.setEditable(false);
-        txtAreaDescrption.setColumns(20);
-        txtAreaDescrption.setRows(5);
-        txtAreaDescrption.setText("apSU - A simple utility to unhide files and folders typically\nhidden by Trojan Horse/Worm, Win32:Atraps-PZ\n\nWin32:Atraps-PZ threat typically hides a file and creates a shortcut \nmimicking the file");
-        txtAreaDescrption.setAutoscrolls(false);
-        txtAreaDescrption.setBorder(null);
-        txtAreaDescrption.setOpaque(false);
 
         lblDescription.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblDescription.setText("Application description:");
 
-        lblAuthor.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblAuthor.setText("Author:");
+        lblAuthorHeader.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblAuthorHeader.setText("Author:");
 
-        txtAreaAuthor.setColumns(20);
-        txtAreaAuthor.setRows(5);
-        txtAreaAuthor.setText("Rodney W.");
-        txtAreaAuthor.setBorder(null);
-        txtAreaAuthor.setOpaque(false);
+        lblVersionHeader.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblVersionHeader.setText("Version:");
 
-        lblVersion.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblVersion.setText("Version:");
+        lblBuildDateHeader.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblBuildDateHeader.setText("Build date:");
 
-        lblBuildDate.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblBuildDate.setText("Build date:");
-
-        lblJava.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        lblJava.setText("Java:");
+        lblJavaHeader.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblJavaHeader.setText("Java:");
 
         lblVersionText.setText("1.0");
 
         lblBuildDateText.setText("2021-04-05");
 
         lblJavaText.setText("1.8.0_221");
+
+        txtAreaDescriptiion.setColumns(20);
+        txtAreaDescriptiion.setLineWrap(true);
+        txtAreaDescriptiion.setRows(5);
+        txtAreaDescriptiion.setText("Contact: shesoyam@yahoo.com\n\nProjection creation date:  possibly 2013-2015\n\nProject was created as a result of constant infection from\nWin32:Atraps-PZ[Trojan] which would hide folders and files\n \t \t\nProjects BTC: bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w\nBTC will be used to sponsor future and current (ongoing) projects\n\nA program called \"HFV (Hidden Folder Virus) Cleaner Pro\"\ncan achieve the same folder/file structure correction as well as able to neutralize the Virus\n \t\nURL: https://sourceforge.net/projects/hfv/\n \t\nIf you want to sponsor a specific project or would like the creatio of a project you can use the email 'shesoyam@yahoo.com' to contact.  ");
+        jScrollPane1.setViewportView(txtAreaDescriptiion);
+
+        lblProjectNameHeader.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblProjectNameHeader.setText("Project name: ");
+
+        lblProjectNameText.setText("apSU // short for \"Application SUPER UNHIDE\"");
+
+        lblAurthorText.setText("Rodney W.");
 
         javax.swing.GroupLayout pnlAboutLayout = new javax.swing.GroupLayout(pnlAbout);
         pnlAbout.setLayout(pnlAboutLayout);
@@ -299,56 +300,65 @@ public class MainFrame extends javax.swing.JFrame implements DropTargetListener 
             .addGroup(pnlAboutLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlAboutLayout.createSequentialGroup()
-                        .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblBuildDate)
-                            .addComponent(lblVersion)
-                            .addComponent(lblJava))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblJavaText)
-                            .addComponent(lblVersionText)
-                            .addComponent(lblBuildDateText))
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlAboutLayout.createSequentialGroup()
-                        .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlAboutLayout.createSequentialGroup()
-                                .addComponent(lblAuthor)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtAreaAuthor))
-                            .addComponent(lblDescription, javax.swing.GroupLayout.Alignment.LEADING))
-                        .addGap(32, 32, 32))
+                        .addComponent(lblDescription)
+                        .addContainerGap(411, Short.MAX_VALUE))
                     .addGroup(pnlAboutLayout.createSequentialGroup()
-                        .addComponent(txtAreaDescrption, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(20, Short.MAX_VALUE))))
+                        .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 552, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(pnlAboutLayout.createSequentialGroup()
+                                .addComponent(lblProjectNameHeader)
+                                .addGap(18, 18, 18)
+                                .addComponent(lblProjectNameText))
+                            .addGroup(pnlAboutLayout.createSequentialGroup()
+                                .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblJavaHeader)
+                                    .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(lblBuildDateHeader, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(lblVersionHeader))
+                                    .addComponent(lblAuthorHeader))
+                                .addGap(45, 45, 45)
+                                .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(pnlAboutLayout.createSequentialGroup()
+                                        .addComponent(lblJavaText)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGroup(pnlAboutLayout.createSequentialGroup()
+                                        .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(lblVersionText)
+                                            .addComponent(lblBuildDateText)
+                                            .addComponent(lblAurthorText))
+                                        .addGap(0, 0, Short.MAX_VALUE)))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         pnlAboutLayout.setVerticalGroup(
             pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlAboutLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblVersion)
+                    .addComponent(lblProjectNameHeader)
+                    .addComponent(lblProjectNameText))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblVersionHeader)
                     .addComponent(lblVersionText))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblBuildDate)
+                    .addComponent(lblBuildDateHeader)
                     .addComponent(lblBuildDateText))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblJava)
+                    .addComponent(lblJavaHeader)
                     .addComponent(lblJavaText))
-                .addGap(18, 18, 18)
+                .addGap(15, 15, 15)
+                .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblAuthorHeader)
+                    .addComponent(lblAurthorText))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(lblDescription)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtAreaDescrption, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(pnlAboutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblAuthor)
-                    .addComponent(txtAreaAuthor, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(42, Short.MAX_VALUE))
         );
-
-        txtAreaDescrption.getAccessibleContext().setAccessibleParent(txtAreaDescrption);
 
         javax.swing.GroupLayout dlgAboutLayout = new javax.swing.GroupLayout(dlgAbout.getContentPane());
         dlgAbout.getContentPane().setLayout(dlgAboutLayout);
@@ -722,15 +732,19 @@ public class MainFrame extends javax.swing.JFrame implements DropTargetListener 
     private javax.swing.JDialog dlgAbout;
     private javax.swing.JDialog dlgPreferences;
     private javax.swing.JFileChooser fileChsrFolderFile;
-    private javax.swing.JLabel lblAuthor;
-    private javax.swing.JLabel lblBuildDate;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblAurthorText;
+    private javax.swing.JLabel lblAuthorHeader;
+    private javax.swing.JLabel lblBuildDateHeader;
     private javax.swing.JLabel lblBuildDateText;
     private javax.swing.JLabel lblDescription;
     private javax.swing.JLabel lblHeader;
-    private javax.swing.JLabel lblJava;
+    private javax.swing.JLabel lblJavaHeader;
     private javax.swing.JLabel lblJavaText;
     private javax.swing.JLabel lblNotification;
-    private javax.swing.JLabel lblVersion;
+    private javax.swing.JLabel lblProjectNameHeader;
+    private javax.swing.JLabel lblProjectNameText;
+    private javax.swing.JLabel lblVersionHeader;
     private javax.swing.JLabel lblVersionText;
     private javax.swing.JList lstFiles;
     private javax.swing.JMenuBar mnuBarMain;
@@ -751,7 +765,6 @@ public class MainFrame extends javax.swing.JFrame implements DropTargetListener 
     private javax.swing.JScrollPane scrlpnFilesFolders;
     private javax.swing.JSeparator sepFooter;
     private javax.swing.JSeparator sepHeader;
-    private javax.swing.JTextArea txtAreaAuthor;
-    private javax.swing.JTextArea txtAreaDescrption;
+    private javax.swing.JTextArea txtAreaDescriptiion;
     // End of variables declaration//GEN-END:variables
 }

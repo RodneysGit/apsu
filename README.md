@@ -7,13 +7,13 @@ Projection creation date:  possibly 2013-2015
 Project was created as a result of constant infection from
 Win32:Atraps-PZ[Trojan] which would hide folders and files
  	 	
-Projects BTC: bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w
+Projects BTC: [bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w](bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w)
 BTC will be used to sponsor future and current (ongoing) projects
 
 A program called "HFV (Hidden Folder Virus) Cleaner Pro"
 can achieve the same folder/file structure correction as well as able to neutralize the Virus
  	
-URL: https://sourceforge.net/projects/hfv/
+URL: [https://sourceforge.net/projects/hfv/](https://sourceforge.net/projects/hfv/)
  	
 If you want to sponsor a specific project or would like the creatio of a project you can use the email 'shesoyam@yahoo.com' to contact.  
 

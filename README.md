@@ -7,7 +7,8 @@ Projection creation date:  possibly 2013-2015
 Project was created as a result of constant infection from
 Win32:Atraps-PZ[Trojan] which would hide folders and files
  	 	
-Projects BTC: bitcoin:bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w
+Projects BTC: 
+### bc1q9vwmlmf4xydussjkpx00penhkpjjqlvtz82n8w
 BTC will be used to sponsor future and current (ongoing) projects
 
 A program called "HFV (Hidden Folder Virus) Cleaner Pro"

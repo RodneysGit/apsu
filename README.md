@@ -1,12 +1,12 @@
 # apsu
-#REQUIREMENTS:
-# 0. Java 1.8
-# 1. Netbeans 8.2 (Optional)
-# 2. Download 'this' project from GitHub to a local "Windows" machine
+## REQUIREMENTS:
+0. Java 1.8
+1. Netbeans 8.2 (Optional)
+2. Download 'this' project from GitHub to a local "Windows" machine
 
-#USAGE:
-# 0. Launce file apSU.jar located in 'dist' folder ('dist\apSU.jar')
-# Alternatively use NetBeans 8.2 to open the project 
+## USAGE:
+0. Launce file apSU.jar located in 'dist' folder ('dist\apSU.jar')
+0.0. Alternatively use NetBeans 8.2 to open the project 
 
 ![Step 1](screenshots/step_1_apsu_usage.png?raw=true "Step 1")
 

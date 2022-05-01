@@ -2,7 +2,7 @@
 ## DESCRIPTION
 Contact: shesoyam@yahoo.com
 
-Projection creation date:  possibly 2013-2015
+Project creation date:  possibly 2013-2015
 
 Project was created as a result of constant infection from
 Win32:Atraps-PZ[Trojan] which would hide folders and files

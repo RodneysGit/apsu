@@ -1,4 +1,4 @@
-# apsu
+# apsu - SUPER UNHIDE
 ## REQUIREMENTS:
 0. Java 1.8
 1. Netbeans 8.2 (Optional)

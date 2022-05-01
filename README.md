@@ -6,7 +6,7 @@
 
 ## USAGE:
 0. Launce file apSU.jar located in 'dist' folder ('dist\apSU.jar')
-0.0. Alternatively use NetBeans 8.2 to open the project 
+0. Alternatively use NetBeans 8.2 to open the project 
 
 ![Step 1](screenshots/step_1_apsu_usage.png?raw=true "Step 1")
 
